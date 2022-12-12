@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('FSMagistralBold.woff2') format('woff2'),
+        url('FSMagistralBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Book';
+    src: url('FSMagistralBook.woff2') format('woff2'),
+        url('FSMagistralBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('FSMagistralBoldItalic.woff2') format('woff2'),
+        url('FSMagistralBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Extra';
+    src: url('FSMagistralExtraBoldItalic.woff2') format('woff2'),
+        url('FSMagistralExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Book';
+    src: url('FSMagistralBookItalic.woff2') format('woff2'),
+        url('FSMagistralBookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Extra';
+    src: url('FSMagistralExtraBold.woff2') format('woff2'),
+        url('FSMagistralExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('FSMagistralMedium.woff2') format('woff2'),
+        url('FSMagistralMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('FSMagistralLightItalic.woff2') format('woff2'),
+        url('FSMagistralLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('FSMagistralLight.woff2') format('woff2'),
+        url('FSMagistralLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('FSMagistralMediumItalic.woff2') format('woff2'),
+        url('FSMagistralMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

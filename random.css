@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralBold.woff2') format('woff2'),
+        url('font/FSMagistralBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Book';
+    src: url('font/FSMagistralBook.woff2') format('woff2'),
+        url('font/FSMagistralBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralBoldItalic.woff2') format('woff2'),
+        url('font/FSMagistralBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Extra';
+    src: url('font/FSMagistralExtraBoldItalic.woff2') format('woff2'),
+        url('font/FSMagistralExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Book';
+    src: url('font/FSMagistralBookItalic.woff2') format('woff2'),
+        url('font/FSMagistralBookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral Extra';
+    src: url('font/FSMagistralExtraBold.woff2') format('woff2'),
+        url('font/FSMagistralExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralMedium.woff2') format('woff2'),
+        url('font/FSMagistralMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralLightItalic.woff2') format('woff2'),
+        url('font/FSMagistralLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralLight.woff2') format('woff2'),
+        url('font/FSMagistralLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralMediumItalic.woff2') format('woff2'),
+        url('font/FSMagistralMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width : 1366px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 768px;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width : 1920px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1080px;
+    }
+}
+
+@media only screen and (max-width : 2560px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1440px;
+    }
+}
+
+@media only screen and (max-width : 1280px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1024px;
+    }
+}
+
+@media only screen and (min-width : 1600px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width : 1680px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1050px;
+    }
+}
+
+@media only screen and (max-width : 1920px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width : 1400px) {
+    .body {
+        background-image: url(./img/bg.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1050px;
+    }
+}
+
+@media only screen and (max-width : 1280px) {
+    .body {
+        background-image: url(./img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width : 2550px) {
+    .body {
+        background-image: url(./img/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 2550px;
+        height: 1134px;
+    }
+}
+
+.popup {
+    background-color: rgb(224, 34, 62);
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 2em;
+    border: 4px solid rgb(255, 255, 255);
+    visibility: visible;
+}
+
+.logo {
+    height: 26%;
+    width: 100%;
+    position: relative;
+}
+
+#img {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translatex(-50%);
+    width: 27%;
+    height: 90%;
+}
+
+.title {
+    position: relative;
+    height: 17%;
+    width: 100%;
+    padding: 2% 0;
+}
+
+.title-text-style {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    letter-spacing: 16px;
+    font-size: 55px;
+    font-weight: 300;
+    width: 100%;
+    font-display: swap;
+    text-align: center;
+}
+
+.num-lucky {
+    position: relative;
+    width: 100%;
+    height: 37%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.num-lucky-1 {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 51%;
+    transform: translatex(-50%);
+}
+
+.num {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 32%;
+    color: rgb(224, 34, 62);
+
+
+}
+
+.bt-play {
+    background-color: rgb(247, 158, 14);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    height: 13.3%;
+    width: 25%;
+    left: 50%;
+    bottom: -6.6%;
+    transform: translatex(-50%);
+    border-radius: 12px;
+    border: 4px solid rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+.bt-play:hover {
+    background-color: rgb(216, 147, 36);
+}
+
+.text {
+    font-family: 'FS Magistral';
+    src: url('font/FSMagistralLight.woff2') format('woff2'),
+        url('font/FSMagistralLight.woff') format('woff');
+}
+
+.num-style {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130px;
+    height: 190px;
+
+}
+
+.showLucky {
+    position: absolute;
+    height: 45%;
+    width: 50%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.luckyText {
+    position: relative;
+    height: 50%;
+}
+
+.title-lucky {
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 140px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.luckyNum {
+    position: relative;
+    height: 50%;
+}
+
+.circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 255px;
+    width: 255px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100%;
+
+}
+
+.numRandom {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 140px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

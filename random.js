@@ -21,24 +21,6 @@ function runRandom() {
     return randomNumber;
 }
 
-function load() {
-    let i = 0;
-    let j = 0;
-    let action = setInterval(function () {
-        output1.innerHTML = i++;
-    }, 100);
-    setTimeout(function () {
-        clearInterval(action);
-        let action1 = setInterval(function () {
-            output1.innerHTML = j++;
-        }, 100);
-        setTimeout(function () {
-            clearInterval(action1);
-        }, 1000);
-    }, 1000);
-}
-
-
 function showNums() {
    
     btn.disabled = true;

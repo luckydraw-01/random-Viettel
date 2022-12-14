@@ -40,6 +40,8 @@ function load() {
 
 
 function showNums() {
+   
+    btn.disabled = true;
     let a = runRandom();
     let num = [];
     let numrd = [];
@@ -59,7 +61,7 @@ function showNums() {
         output2.innerHTML = j++;
         output3.innerHTML = k++;
     }, 100);
-
+    
     setTimeout(function () {
         clearInterval(action);
         let action1 = setInterval(function () {
@@ -107,7 +109,7 @@ function showNums() {
 
     }, 900);
     //end loading
-
+      
 
     if (numrd.length === 3) {
         setTimeout(function () {
@@ -164,21 +166,28 @@ function showNums() {
             document.querySelector("#showNum").innerHTML = "0" + numrd[0];
         }
         back.addEventListener("click", function () {
+            
             if (count === 10) {
                 location.reload();
             }
             if (count < 10) {
                 showLucky.style.visibility = 'hidden';
                 popup.style.visibility = 'visible';
+                
             }
         });
+        
         output1.innerHTML = 0;
         output2.innerHTML = 0;
         output3.innerHTML = 0;
-
-
+        
     }
     setTimeout(sss, 6500);
+
+    setTimeout(function(){
+        btn.disabled = false;
+    }, 6600);
+    
 
 }
 

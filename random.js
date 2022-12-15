@@ -22,7 +22,6 @@ function runRandom() {
 }
 
 function showNums() {
-   
     btn.disabled = true;
     let a = runRandom();
     let num = [];
@@ -35,9 +34,10 @@ function showNums() {
     }
     numrd.sort(() => -1);
 
+    console.log(num);
+    console.log(numrd);
     // start loading
     let i = 0, j = 0, k = 0;
-
     let action = setInterval(function () {
         output1.innerHTML = i++;
         output2.innerHTML = j++;
@@ -46,14 +46,16 @@ function showNums() {
     
     setTimeout(function () {
         clearInterval(action);
+        let i = 9, j = 9, k = 9;
         let action1 = setInterval(function () {
             output1.innerHTML = i--;
             output2.innerHTML = j--;
             output3.innerHTML = k--;
-        }, 120);
+        }, 100);
 
         setTimeout(function () {
             clearInterval(action1);
+            let j = 0, k = 0;
             let action2 = setInterval(function () {
                 output2.innerHTML = j++;
                 output3.innerHTML = k++;
@@ -61,74 +63,78 @@ function showNums() {
 
             setTimeout(function () {
                 clearInterval(action2);
+                let j = 9, k = 9;
                 let action3 = setInterval(function () {
                     output2.innerHTML = j--;
                     output3.innerHTML = k--;
-                }, 120);
+                }, 100);
 
                 setTimeout(function () {
                     clearInterval(action3);
+                    let k = 0;
                     let action4 = setInterval(function () {
                         output3.innerHTML = k++;
                     }, 100);
 
                     setTimeout(function () {
                         clearInterval(action4);
+                        let k = 9;
                         let action5 = setInterval(function () {
                             output3.innerHTML = k--;
-                        }, 120);
+                        }, 100);
                         setTimeout(function () {
                             clearInterval(action5);
-                        }, 1080);
+                        }, 1000);
 
-                    }, 900);
+                    }, 1000);
 
-                }, 1080);
+                }, 1000);
 
-            }, 900)
+            }, 1000)
 
-        }, 1080);
+        }, 1000);
 
-    }, 900);
+    }, 1000);
     //end loading
       
 
     if (numrd.length === 3) {
         setTimeout(function () {
             output1.innerHTML = numrd[0];
-        }, 2000);
+        }, 2100);
         setTimeout(function () {
             output2.innerHTML = numrd[1];
-        }, 4000);
+        }, 4100);
         setTimeout(function () {
             output3.innerHTML = numrd[2];
-        }, 6000);
+        }, 6100);
     }
     if (numrd.length === 2) {
         setTimeout(function () {
             output1.innerHTML = 0;
-        }, 2000);
+        }, 2100);
         setTimeout(function () {
             output2.innerHTML = numrd[0];
-        }, 4000);
+        }, 4100);
         setTimeout(function () {
             output3.innerHTML = numrd[1];
-        }, 6000);
+        }, 6100);
     }
     if (numrd.length === 1) {
         setTimeout(function () {
             output1.innerHTML = 0;
-        }, 2000);
+        }, 2100);
         setTimeout(function () {
             output2.innerHTML = 0;
-        }, 4000);
+        }, 4100);
         setTimeout(function () {
             output3.innerHTML = numrd[0];
-        }, 6000);
+        }, 6100);
     }
 
     function sss() {
         count += 1;
+        console.log(count);
         const popup = document.querySelector(".popup");
         const showLucky = document.querySelector(".showLucky");
         showLucky.style.visibility = 'visible';
@@ -148,29 +154,22 @@ function showNums() {
             document.querySelector("#showNum").innerHTML = "0" + numrd[0];
         }
         back.addEventListener("click", function () {
-            
-            if (count === 10) {
+            if (count === 10) {     // Thiet lap so lan quay
                 location.reload();
             }
             if (count < 10) {
                 showLucky.style.visibility = 'hidden';
                 popup.style.visibility = 'visible';
-                
             }
         });
-        
         output1.innerHTML = 0;
         output2.innerHTML = 0;
         output3.innerHTML = 0;
-        
     }
-    setTimeout(sss, 6500);
-
+    setTimeout(sss, 6500);      // Thiet lap thoi gian hien thi giai
     setTimeout(function(){
         btn.disabled = false;
-    }, 6600);
-    
-
+    }, 6510);
 }
 
 let output1 = document.getElementById("num-1");
@@ -179,11 +178,11 @@ let output3 = document.getElementById("num-3");
 let btn = document.querySelector(".bt-play");
 let back = document.querySelector(".body");
 let count = 0;
-let i = 0;
-let j = 0;
-let numbersArray = createArrayOfNumbers(1, 100);
+let numbersArray = createArrayOfNumbers(1, 100);    // Thiet lap luong so quay
 btn.addEventListener("click", showNums);
 
 
 
 
+
+  

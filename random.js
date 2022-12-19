@@ -154,10 +154,10 @@ function showNums() {
             document.querySelector("#showNum").innerHTML = "0" + numrd[0];
         }
         back.addEventListener("click", function () {
-            if (count === 10) {     // Thiet lap so lan quay
+            if (count === 20) {     // Thiet lap so lan quay
                 location.reload();
             }
-            if (count < 10) {
+            if (count < 20) {
                 showLucky.style.visibility = 'hidden';
                 popup.style.visibility = 'visible';
             }
